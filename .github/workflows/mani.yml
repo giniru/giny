@@ -96,7 +96,7 @@ jobs:
 
       - name: Run para.py
         run: |
-          python para.py --brave --incognito --do-not-track --xvfb --screenshot
+          python giny.py --brave --incognito --do-not-track --xvfb --screenshot
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v4
